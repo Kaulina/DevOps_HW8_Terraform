@@ -120,4 +120,9 @@ resource "yandex_compute_disk" "storage" {
 
 ![4.1](screenshots/4.1.png)
 
+ссылка на коммит - https://github.com/Kaulina/DevOps_HW8_Terraform
+
+после коммита в ветку terraform-03, удалила все ресурсы - terraform destroy
+
+![4.2](screenshots/4.2.png)
 

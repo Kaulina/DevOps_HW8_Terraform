@@ -9,6 +9,4 @@ ${d.name} ansible_host=${d.ip} fqdn=${d.fqdn}
 %{ endfor ~}
 
 [storage]
-%{ for s in storage ~}
-${s.name} ansible_host=${s.ip} fqdn=${s.fqdn}
-%{ endfor ~}
+${storage.name} ansible_host=${storage.ip} fqdn=${storage.fqdn}

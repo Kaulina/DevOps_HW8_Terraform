@@ -126,3 +126,18 @@ resource "yandex_compute_disk" "storage" {
 
 ![4.2](screenshots/4.2.png)
 
+## Задание 5*
+
+создала файл outputs.tf, после чего выполнила terraform apply
+
+как создались ресурсы выполнила terraform output all_vms
+
+![5.1](screenshots/5.1.png)
+
+![5.2](screenshots/5.2.png)
+
+## Задание 6*
+
+обновила hosts.tftpl и ansible.tf
+ 
+ столкнулась с проблемй сети у terraform. Потратила больше 6 часов на решение проблемы, и решила на этом остановиться. Возможно решение придет чуть позже.
